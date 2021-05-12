@@ -1,0 +1,14 @@
+Install Python v.3xx
+Install VSCode
+Install Selenium: pip install selenium
+Download Chrome WebDriver https://chromedriver.chromium.org/downloads
+
+Ganti Python Interpreter ke .venv yang ada di Repo
+Caranya:
+1. Ke Folder .vscode di Repo buka settings.json
+2. Ubah python.pythonpath: ke lokasi python di .venv
+3. Contoh: python.pythonpath: "C:\Users\Administrator\Desktop\googleform_respondent_bot\.venv\Scripts\python.exe" *ganti "\" jadi "/"
+4. Lalu aktivin dlu virtual environmentnya
+5. Tulis ini diterminal: ".venv\Scripts\activate" *tanpa tanda kutip "
+
+Inspired From: https://medium.com/swlh/automatically-filling-multiple-responses-into-a-google-form-with-selenium-and-python-176340c5220d
